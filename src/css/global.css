@@ -1,0 +1,17 @@
+.backgroundPlayer {
+  width: 80vw;
+  height: calc(80vw * 0.5625);
+  display: block;
+  background:#333;
+  color: white;
+  position:relative;
+}
+.backgroundPlayer h1 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top:calc(50% - 30px);
+  line-height: 30px;
+  font-size: 30px;
+}
